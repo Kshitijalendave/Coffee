@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* body{
+    background-image: url("img/6.jpg");
+} */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    background-color: #333333;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  .home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url("img/6.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 55px;
+}
+.home .content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(237, 249, 249);
+   
+}
+.home .content p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1 rem 0;
+   color: #111111;
+}
+
+      .about .row{
+        display: flex;
+        text-align:  center;
+        background: var(--black);
+        flex-wrap: wrap;
+        
+    }
+    
+    .about .row .image{
+        flex: 1 1 45 rem;
+        
+    
+    }
+    .about .row .img{
+        width: 100%;
+        min-height: 80px;
+    }
+    .about .row .content{
+        flex: 1 1 45 rem;
+        padding:2rem;
+        margin-top: -40%;
+    
+    }
+    .about .row .content h3{
+      font-size: 2.4rem;
+      color: #fff;
+      margin-right: -80%;
+      margin-top: 70px;
+      
+    
+    }
+    
+     .about .row .content p{
+        font-size: 1rem;
+        color: rgb(15, 15, 15);
+        padding: 1rem 0;
+        padding: 1rem 0;
+        line-height:1;
+        margin-left: 55%;
+     }
+    .about .row .content .btn{
+        margin-left: 65%;
+        color: rgb(14, 13, 13);
+        height: 30px;
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width:450px){
+        html{
+            font-size: 50%;
+        }
+    }
+
+      footer {
+        background-color: #141313;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        display: flex;
+        text-decoration: none;
+       
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
